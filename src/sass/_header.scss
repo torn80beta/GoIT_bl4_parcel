@@ -1,0 +1,80 @@
+.header-hero__wrapper {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  top: 11px;
+  width: 100%;
+}
+
+.header__navigation {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 46px;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  // height: 65px;
+}
+
+.header__company-logo {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 0;
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+}
+
+.header__logo-svg {
+  width: 40px;
+  height: 31px;
+  // fill: var(--green-corporate-color);
+  fill: green;
+}
+
+.header__company-name {
+  margin: 0;
+  font-size: 35px;
+  line-height: calc(42 / 35);
+  text-transform: capitalize;
+  // color: var(--green-corporate-color);
+  color: green;
+}
+
+.header__company-name-part {
+  // color: var(--white-corporate-color);
+  color: white;
+}
+
+.header__navigation-list {
+  font-size: 18px;
+  padding: 0;
+  display: flex;
+  gap: 38px;
+  align-items: center;
+  // color: var(--white-corporate-color);
+  color: white;
+}
+
+.header__navigation-item {
+  list-style: none;
+  padding: 0;
+}
+
+.header__navigation-link {
+  text-decoration: none;
+  color: inherit;
+  padding: 20px 0;
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+}
