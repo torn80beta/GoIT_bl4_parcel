@@ -9,7 +9,7 @@
    font-size: 20px;
    line-height: 1.65;
    text-align: center;
-   color: #333333;
+   color: var(--footer-color);
 }
 
 .cases__subtitle {
@@ -18,7 +18,7 @@
    font-size: 38px;
    line-height: 1.26;
    text-align: center;
-   color: #333333;
+   color: var(--footer-color);
 }
 
 .cases__text {
@@ -26,7 +26,7 @@
    font-size: 18px;
    line-height: 1.56;
    text-align: center;
-   color: #333333;
+   color: var(--footer-color);
 }
 
 .cases__list {
