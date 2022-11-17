@@ -53,6 +53,134 @@ li {
   margin: -1px;
 }
 
+.header__wrapper {
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.header__navigation {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 46px;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__company-logo {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 0;
+}
+.header__company-logo:hover, .header__company-logo:focus {
+  cursor: pointer;
+}
+
+.header__logo-svg {
+  width: 40px;
+  height: 31px;
+  fill: #28a745;
+}
+
+.header__company-name {
+  margin: 0;
+  font-size: 35px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  color: #28a745;
+}
+
+.header__company-name-part {
+  color: #ffffff;
+}
+
+.header__navigation-list {
+  font-size: 18px;
+  line-height: 1.5555555556;
+  padding: 0;
+  display: flex;
+  gap: 38px;
+  align-items: center;
+  color: #ffffff;
+}
+
+.header__navigation-item {
+  list-style: none;
+  padding: 0;
+}
+
+.header__navigation-link {
+  text-decoration: none;
+  color: inherit;
+  padding: 22px 0;
+}
+.header__navigation-link:hover, .header__navigation-link:focus {
+  cursor: pointer;
+}
+
+.hero-wrapper {
+  height: 768px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #e9e9e9;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__title {
+  margin: 0 0 39px;
+  font-weight: 300;
+  font-size: 55px;
+  text-transform: capitalize;
+  line-height: 1.2;
+}
+
+.hero__slogan {
+  font-size: 22px;
+  line-height: 1.6818181818;
+  margin: 0 0 29px;
+}
+
+.hero__button {
+  display: flex;
+  min-width: 165px;
+  min-height: 48px;
+  padding: 10px 30px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #28a745;
+  color: #ffffff;
+  font-family: inherit;
+  text-transform: capitalize;
+  font-size: 18px;
+  line-height: 1.5555555556;
+  border: none;
+  border-radius: 5px;
+}
+.hero__button:hover, .hero__button:focus {
+  cursor: pointer;
+}
+
+.hero__button-svg {
+  width: 9px;
+  height: 18px;
+  fill: #ffffff;
+  margin-right: 5px;
+}
+
 .our-servicse-title {
   position: absolute;
   white-space: nowrap;

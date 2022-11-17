@@ -33,7 +33,7 @@
 .header__logo-svg {
   width: 40px;
   height: 31px;
-  fill: var(--green-corporate-color);
+  fill: $green-corporate-color;
 }
 
 .header__company-name {
@@ -41,11 +41,11 @@
   font-size: 35px;
   line-height: calc(42 / 35);
   text-transform: capitalize;
-  color: var(--green-corporate-color);
+  color: $green-corporate-color;
 }
 
 .header__company-name-part {
-  color: var(--white-corporate-color);
+  color: $white-corporate-color;
 }
 
 .header__navigation-list {
@@ -55,7 +55,7 @@
   display: flex;
   gap: 38px;
   align-items: center;
-  color: var(--white-corporate-color);
+  color: $white-corporate-color;
 }
 
 .header__navigation-item {
