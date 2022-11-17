@@ -308,11 +308,11 @@ li {
 }
 
 /* Business Cases */
-.cases-section {
+.cases {
   padding: 50px 0 47px;
 }
 
-.cases-desc {
+.cases__desc {
   margin-bottom: 15px;
   font-size: 20px;
   line-height: 1.65;
@@ -320,7 +320,7 @@ li {
   color: #333333;
 }
 
-.cases-subtitle {
+.cases__subtitle {
   margin-bottom: 34px;
   font-weight: 300;
   font-size: 38px;
@@ -329,7 +329,7 @@ li {
   color: #333333;
 }
 
-.cases-text {
+.cases__text {
   margin-bottom: 39px;
   font-size: 18px;
   line-height: 1.56;
@@ -337,7 +337,7 @@ li {
   color: #333333;
 }
 
-.cases-list {
+.cases__list {
   display: flex;
   flex-wrap: wrap;
   padding: 0 28px;
@@ -346,7 +346,7 @@ li {
        column-gap: 8px;
 }
 
-.cases-item {
+.cases__item {
   flex-basis: calc((100% - 24px) / 4);
 }
 
