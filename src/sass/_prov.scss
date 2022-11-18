@@ -1,10 +1,10 @@
 /* We provide */
 
-.prov-box {
+.prov__box {
     display: flex;
   }
   
-  .prov-descr {
+  .prov__descr {
     padding-top: 84px;
     padding-bottom: 84px;
     padding-left: 30px;
@@ -13,7 +13,7 @@
     color: #ffffff;
   }
   
-  .descr {
+  .prov__sub-title {
     margin-bottom: 5px;
     font-family: Open Sans, sans-serif;
     font-weight: 400;
@@ -21,7 +21,7 @@
     line-height: 1.647;
   }
   
-  .descr-title {
+  .prov__title {
     margin-top: 0px;
     margin-bottom: 26px;
     font-family: Open Sans, sans-serif;
@@ -30,7 +30,7 @@
     line-height: 1.263;
   }
   
-  .descr-text {
+  .prov__text {
     margin-top: 0px;
     margin-bottom: 17px;
   
@@ -42,13 +42,12 @@
     color: #ffffff;
   }
   
-  .prov-button {
+  .prov__button {
     display: block;
     width: 167px;
     height: 50px;
-    /* border: 1px solid #fff; */
+    border: 1px solid #fff;
     margin-top: 0px;
-    border-color: #ffffff;
     border-radius: 5px;
     font-family: Open Sans, sans-serif;
     font-weight: 400;
